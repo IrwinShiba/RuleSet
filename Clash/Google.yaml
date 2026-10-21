@@ -20,7 +20,6 @@ payload:
   - DOMAIN-SUFFIX,adwords-community.com
   - DOMAIN-SUFFIX,adwords.com
   - DOMAIN-SUFFIX,adwordsexpress.com
-  - DOMAIN-SUFFIX,ai.ytimg.com
   - DOMAIN-SUFFIX,amp.dev
   - DOMAIN-SUFFIX,ampproject.com
   - DOMAIN-SUFFIX,ampproject.net
@@ -31,6 +30,7 @@ payload:
   - DOMAIN-SUFFIX,angulardart.org
   - DOMAIN-SUFFIX,api.ai
   - DOMAIN-SUFFIX,apigee.com
+  - DOMAIN-SUFFIX,app-analytics-services.com
   - DOMAIN-SUFFIX,app-measurement-cn.com
   - DOMAIN-SUFFIX,app-measurement.com
   - DOMAIN-SUFFIX,app-measurement.net
@@ -138,6 +138,7 @@ payload:
   - DOMAIN-SUFFIX,bumptop.net
   - DOMAIN-SUFFIX,bumptop.org
   - DOMAIN-SUFFIX,bumptunes.com
+  - DOMAIN-SUFFIX,c.gle
   - DOMAIN-SUFFIX,campuslondon.com
   - DOMAIN-SUFFIX,capitalg.com
   - DOMAIN-SUFFIX,certificate-transparency.dev
@@ -193,15 +194,9 @@ payload:
   - DOMAIN-SUFFIX,digisfera.com
   - DOMAIN-SUFFIX,digitalassetlinks.org
   - DOMAIN-SUFFIX,digitalattackmap.com
-  - DOMAIN-SUFFIX,distribution.qatp1.net
-  - DOMAIN-SUFFIX,distribution.qcpp1.net
-  - DOMAIN-SUFFIX,distribution.qpdp1.net
   - DOMAIN-SUFFIX,doubleclick-cn.net
   - DOMAIN-SUFFIX,doubleclick.com
   - DOMAIN-SUFFIX,doubleclick.net
-  - DOMAIN-SUFFIX,download.qatp1.net
-  - DOMAIN-SUFFIX,download.qcpp1.net
-  - DOMAIN-SUFFIX,download.qpdp1.net
   - DOMAIN-SUFFIX,episodic.com
   - DOMAIN-SUFFIX,fastlane.ci
   - DOMAIN-SUFFIX,fastlane.tools
@@ -486,7 +481,6 @@ payload:
   - DOMAIN-SUFFIX,googlepagecreator.com
   - DOMAIN-SUFFIX,googlephotos.com
   - DOMAIN-SUFFIX,googleplay.com
-  - DOMAIN-SUFFIX,googleplex.com
   - DOMAIN-SUFFIX,googleplus.com
   - DOMAIN-SUFFIX,googlescholar.com
   - DOMAIN-SUFFIX,googlesource.com
@@ -549,9 +543,6 @@ payload:
   - DOMAIN-SUFFIX,meet.new
   - DOMAIN-SUFFIX,mfg-inspector.com
   - DOMAIN-SUFFIX,mobileview.page
-  - DOMAIN-SUFFIX,monitoring.qatp1.net
-  - DOMAIN-SUFFIX,monitoring.qcpp1.net
-  - DOMAIN-SUFFIX,monitoring.qpdp1.net
   - DOMAIN-SUFFIX,moodstocks.com
   - DOMAIN-SUFFIX,near.by
   - DOMAIN-SUFFIX,nest.com
@@ -595,20 +586,8 @@ payload:
   - DOMAIN-SUFFIX,projectara.com
   - DOMAIN-SUFFIX,projectbaseline.com
   - DOMAIN-SUFFIX,publishproxy.com
-  - DOMAIN-SUFFIX,qagpublic.qatp1.net
-  - DOMAIN-SUFFIX,qagpublic.qcpp1.net
-  - DOMAIN-SUFFIX,qagpublic.qpdp1.net
-  - DOMAIN-SUFFIX,qgadmin.qatp1.net
-  - DOMAIN-SUFFIX,qgadmin.qcpp1.net
-  - DOMAIN-SUFFIX,qgadmin.qpdp1.net
   - DOMAIN-SUFFIX,qiao-cn.com
   - DOMAIN-SUFFIX,qpx.googleflights.net
-  - DOMAIN-SUFFIX,qualysapi.qatp1.net
-  - DOMAIN-SUFFIX,qualysapi.qcpp1.net
-  - DOMAIN-SUFFIX,qualysapi.qpdp1.net
-  - DOMAIN-SUFFIX,qualysguard.qatp1.net
-  - DOMAIN-SUFFIX,qualysguard.qcpp1.net
-  - DOMAIN-SUFFIX,qualysguard.qpdp1.net
   - DOMAIN-SUFFIX,questvisual.com
   - DOMAIN-SUFFIX,quickoffice.com
   - DOMAIN-SUFFIX,quiksee.com
@@ -625,9 +604,6 @@ payload:
   - DOMAIN-SUFFIX,run.app
   - DOMAIN-SUFFIX,savethedate.foo
   - DOMAIN-SUFFIX,saynow.com
-  - DOMAIN-SUFFIX,scanservice1.qatp1.net
-  - DOMAIN-SUFFIX,scanservice1.qcpp1.net
-  - DOMAIN-SUFFIX,scanservice1.qpdp1.net
   - DOMAIN-SUFFIX,schema.org
   - DOMAIN-SUFFIX,schemer.com
   - DOMAIN-SUFFIX,screenwisetrends.com
@@ -720,15 +696,56 @@ payload:
   - IP-CIDR6,2620:120:e000::/40,no-resolve
   # Gemini
   - DOMAIN,ai.google.dev
+  - DOMAIN,alkalicore-pa.clients6.google.com
   - DOMAIN,alkalimakersuite-pa.clients6.google.com
+  - DOMAIN,antigravity-pa.googleapis.com
+  - DOMAIN,antigravity.googleapis.com
+  - DOMAIN,appsgenaiserver-pa.clients.google.com
+  - DOMAIN,appsgenaiserver-pa.clients6.google.com
+  - DOMAIN,appsgenaiserver-pa.googleapis.com
+  - DOMAIN,cloudaicompanion.googleapis.com
+  - DOMAIN,cloudcode-pa.googleapis.com
+  - DOMAIN,daily-cloudcode-pa.googleapis.com
+  - DOMAIN,geminiweb-pa.clients.google.com
+  - DOMAIN,geminiweb-pa.clients6.google.com
   - DOMAIN,makersuite.google.com
+  - DOMAIN,notebooklm-pa.googleapis.com
+  - DOMAIN,notebooklm.googleapis.com
+  - DOMAIN,webchannel-alkalimakersuite-pa.clients6.google.com
+  - DOMAIN-SUFFIX,ai.studio
+  - DOMAIN-SUFFIX,aicode.googleapis.com
+  - DOMAIN-SUFFIX,aida.googleapis.com
+  - DOMAIN-SUFFIX,aisandbox-pa.googleapis.com
+  - DOMAIN-SUFFIX,aistudio.google.com
+  - DOMAIN-SUFFIX,antigravity-unleash.goog
+  - DOMAIN-SUFFIX,antigravity.google
+  - DOMAIN-SUFFIX,apis.google.com
   - DOMAIN-SUFFIX,bard.google.com
   - DOMAIN-SUFFIX,deepmind.com
   - DOMAIN-SUFFIX,deepmind.google
+  - DOMAIN-SUFFIX,flow.google
+  - DOMAIN-SUFFIX,flow.google.com
+  - DOMAIN-SUFFIX,geller-pa.googleapis.com
+  - DOMAIN-SUFFIX,gemini.google
   - DOMAIN-SUFFIX,gemini.google.com
+  - DOMAIN-SUFFIX,gemini.gstatic.com
   - DOMAIN-SUFFIX,generativeai.google
+  - DOMAIN-SUFFIX,generativelanguage.googleapis.com
+  - DOMAIN-SUFFIX,jules.google
+  - DOMAIN-SUFFIX,jules.google.com
+  - DOMAIN-SUFFIX,labs.google
+  - DOMAIN-SUFFIX,labs.google.com
+  - DOMAIN-SUFFIX,labstailwind.pa.googleapis.com
+  - DOMAIN-SUFFIX,makersuite.google.com
+  - DOMAIN-SUFFIX,notebook.google
+  - DOMAIN-SUFFIX,notebook.google.com
+  - DOMAIN-SUFFIX,notebooklm.google
+  - DOMAIN-SUFFIX,notebooklm.google.com
+  - DOMAIN-SUFFIX,opal.google
+  - DOMAIN-SUFFIX,opal.google.com
   - DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
-  - DOMAIN-SUFFIX,apis.google.com
+  - DOMAIN-SUFFIX,robinfrontend-pa.googleapis.com
+  - DOMAIN-SUFFIX,stitch.withgoogle.com
   - DOMAIN-KEYWORD,colab
   - DOMAIN-KEYWORD,developerprofiles
   - DOMAIN-KEYWORD,generativelanguage
